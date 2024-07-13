@@ -6,7 +6,7 @@ AverageGrade3 = (sum(grades[2])) / len(grades[2])
 AverageGrade4 = (sum(grades[3])) / len(grades[3])
 AverageGrade5 = (sum(grades[4])) / len(grades[4])
 StudentsList = list(students)
-StudentsList.sort
+StudentsList.sort()
 AverageGradesOfStudents = {StudentsList[0]:AverageGrade1 ,
      StudentsList[1]:AverageGrade2 ,
      StudentsList[2]:AverageGrade3 ,
